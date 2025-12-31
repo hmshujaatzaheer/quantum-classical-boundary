@@ -1,0 +1,83 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1500 >>
+stream
+BT
+/F1 18 Tf
+50 742 Td
+(Trainability-Simulability Separation Proof) Tj
+/F1 12 Tf
+0 -30 Td
+(Theorem: Trainability and Simulability Define Distinct Computational Boundaries) Tj
+0 -20 Td
+(Author: PhD Research - ETH Zurich Quantum Computing Group) Tj
+0 -40 Td
+(1. INTRODUCTION) Tj
+0 -20 Td
+(This document provides the formal proof that trainability and simulability) Tj
+0 -15 Td
+(represent distinct computational resources, as established by Meyer et al. 2025.) Tj
+0 -30 Td
+(2. DEFINITIONS) Tj
+0 -20 Td
+(Definition 1 - Trainability: A circuit C is trainable if Var[dC/dtheta] = Omega\(1/poly\(n\)\)) Tj
+0 -15 Td
+(Definition 2 - Simulability: A circuit C is classically simulable if output) Tj
+0 -15 Td
+(probabilities can be computed in polynomial time.) Tj
+0 -30 Td
+(3. MAIN THEOREM) Tj
+0 -20 Td
+(Theorem: There exist circuits that are:) Tj
+0 -15 Td
+(\(a\) Trainable but not efficiently simulable) Tj
+0 -15 Td
+(\(b\) Simulable but not trainable \(barren plateau\)) Tj
+0 -30 Td
+(4. PROOF SKETCH) Tj
+0 -20 Td
+(Part \(a\): Hardware-efficient ansatz with restricted DLA has polynomial) Tj
+0 -15 Td
+(gradient variance but universal computational power.) Tj
+0 -20 Td
+(Part \(b\): Deep local rotation circuits are classically simulable) Tj
+0 -15 Td
+(\(product states\) but exhibit barren plateaus due to full DLA.) Tj
+0 -30 Td
+(5. NUMERICAL VERIFICATION) Tj
+0 -20 Td
+(See experiments/meyer_verification/ for computational validation.) Tj
+0 -30 Td
+(6. REFERENCES) Tj
+0 -20 Td
+(Meyer et al. \(2025\) - Exploiting structure in quantum computing) Tj
+0 -15 Td
+(Ragone et al. \(2024\) - A Lie algebraic theory of barren plateaus) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000001820 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1897
+%%EOF
